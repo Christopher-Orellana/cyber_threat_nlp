@@ -10,7 +10,7 @@ CyberThreatNLP is a natural language processing project that classifies cybersec
 
 
 
-Technical Scope
+Technical Scope:
 
 
 
@@ -34,9 +34,9 @@ Technical Scope
 
 
 
-Project Layout
+Project Layout:
 
-cyber\_threat\_nlp/
+```cyber\_threat\_nlp/
 
 ├── data/             (raw data excluded from version control)
 
@@ -44,25 +44,25 @@ cyber\_threat\_nlp/
 
 ├── src/              (planned preprocessing, features, modeling)
 
-├── models/           (ignored: trained artifacts)
+├── models/           (ignored: trained models)
 
 └── requirements.txt
+```
 
 
+Setup:
 
-Setup
-
-python -m venv .venv
+```python -m venv .venv
 
 .venv\\Scripts\\activate
 
 pip install -r requirements.txt
 
 python -m spacy download en\_core\_web\_sm
+```
 
 
-
-Reason for this project
+Reason for this project:
 
 
 
