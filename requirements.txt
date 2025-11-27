@@ -1,0 +1,23 @@
+# Core Data & Utilities
+pandas>=2.0
+numpy>=1.23
+tqdm>=4.60
+
+# Excel Support
+openpyxl>=3.0.10
+
+# NLP & Machine Learning (Classical)
+scikit-learn>=1.2
+spacy>=3.5
+regex>=2023.0.0
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Deep Learning (for Transformer benchmarking later)
+transformers>=4.30
+torch>=2.0
+
+# Optional: Progress bar for model training
+tqdm>=4.60

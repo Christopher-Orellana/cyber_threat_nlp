@@ -1,0 +1,21 @@
+# Python venv
+venv/
+.env/
+
+# Byte code and cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/processed/
+
+# Model weights
+models/classical/
+models/bert/
+
+# OS files
+.DS_Store
