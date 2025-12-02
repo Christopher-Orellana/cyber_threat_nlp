@@ -1,6 +1,7 @@
 # Python venv
 venv/
 .env/
+.idea/
 
 # Byte code and cache
 __pycache__/
