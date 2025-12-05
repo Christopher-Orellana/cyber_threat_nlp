@@ -1,7 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+
 # Core Data & Utilities
 pandas>=2.0
 numpy>=1.23
-tqdm>=4.60
+datasets>=2.12
 
 # Excel Support
 openpyxl>=3.0.10
@@ -15,9 +20,15 @@ regex>=2023.0.0
 matplotlib>=3.7
 seaborn>=0.12
 
-# Deep Learning (for Transformer benchmarking later)
-transformers>=4.30
-torch>=2.0
+# Required for DeBERTa + HuggingFace tokenizers
+protobuf==3.20.*
+sentencepiece>=0.1.99
+tokenizers<0.21
 
-# Optional: Progress bar for model training
+# Transformers + Training
+transformers>=4.30
+accelerate>=0.20
+
+# Progress bar for model training
 tqdm>=4.60
+ipywidgets>=8.0

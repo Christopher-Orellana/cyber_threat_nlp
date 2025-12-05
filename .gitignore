@@ -13,10 +13,10 @@ __pycache__/
 # Data files
 data/raw/
 data/processed/
+processed/
 
 # Model weights
-models/classical/
-models/bert/
+models/
 
 # OS files
 .DS_Store
