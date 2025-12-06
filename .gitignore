@@ -1,22 +1,47 @@
 # Python venv
+.venv/
 venv/
-.env/
+env/
+
+# PyCharm
 .idea/
 
-# Byte code and cache
+# Bytecode + cache
 __pycache__/
 *.py[cod]
 
-# Jupyter Notebook checkpoints
+# Jupyter checkpoints
 .ipynb_checkpoints/
-
-# Data files
-data/raw/
-data/processed/
-processed/
-
-# Model weights
-models/
+**/.ipynb_checkpoints/
 
 # OS files
 .DS_Store
+
+# Ignore model weights & checkpoints
+models/
+**/checkpoint-*/
+
+# Ignore processed tokenized datasets (HuggingFace caches)
+processed/tokenized_DeBERTa_ds/
+
+# KEEP metadata in processed/
+!processed/*.json
+
+# Ignore HuggingFace caches
+.cache/
+huggingface/
+hf_cache/
+~/.cache/huggingface/
+
+# Ignore experiment logs
+runs/
+wandb/
+logs/
+tensorboard/
+mlruns/
+
+# Keep data (xlsx, json, csv)
+!data/*.xlsx
+!data/*.csv
+!data/*.json
+!data/*.txt
