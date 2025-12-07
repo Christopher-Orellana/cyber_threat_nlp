@@ -6,7 +6,7 @@ Automated Classification of Cybersecurity Threat Reports
 
 
 
-CyberThreatNLP is a natural language processing project that classifies cybersecurity news articles into threat categories such as ransomware, data breaches, and software exploits. The work benchmarks traditional TF–IDF models against transformer-based models (DeBERTa v3-base) and evaluates whether domain-specific features (such as CVE extraction and security lexicons) improve classification accuracy.
+CyberThreatNLP is a natural language processing project that classifies cybersecurity news articles into threat categories such as ransomware, data breaches, and software exploits. The work benchmarks traditional TF–IDF models against transformer-based models (DeBERTa v3-base) and evaluates whether domain-specific features for a classical ML model gives a higher classification accuracy than a Neural Network.
 
 
 
