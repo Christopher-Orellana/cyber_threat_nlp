@@ -28,6 +28,7 @@ tokenizers<0.21
 # Transformers + Training
 transformers>=4.30
 accelerate>=0.20
+optuna>=3.0
 
 # Progress bar for model training
 tqdm>=4.60
