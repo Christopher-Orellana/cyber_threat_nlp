@@ -14,7 +14,7 @@ Technical Scope:
 
 
 
-* Text preprocessing using spaCy
+* Text preprocessing using NLTK
 
 
 
@@ -26,7 +26,7 @@ Technical Scope:
 
 
 
-* DistilBERT or DistilLongformer fine-tuning for comparison
+* DeBERTA-v3 fine-tuning for comparison
 
 
 
@@ -57,8 +57,6 @@ Setup:
 .venv\\Scripts\\activate
 
 pip install -r requirements.txt
-
-python -m spacy download en\_core\_web\_sm
 ```
 
 
@@ -66,7 +64,7 @@ Reason for this project:
 
 
 
-Threat intelligence platforms and security operations teams receive large volumes of unstructured reports. Automating threat classification can improve alert triage, incident prioritization, and analyst efficiency. This project demonstrates how classical and modern NLP approaches perform in that context.
+Threat intelligence platforms and security operations teams receive large volumes of unstructured reports. Automating threat classification. We can use this model to automate classification of different cybersecurity corpora, saving labor and reducing costs. This model can also be used for threat detection and handling threats/risks before they escalate, which is crucial for security firms. This project demonstrates how classical and modern NLP approaches perform in that context.
 
 
 
