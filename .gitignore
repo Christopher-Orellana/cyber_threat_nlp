@@ -40,8 +40,5 @@ logs/
 tensorboard/
 mlruns/
 
-# Keep data (xlsx, json, csv)
-!data/*.xlsx
-!data/*.csv
-!data/*.json
-!data/*.txt
+# data
+data/*.xlsx

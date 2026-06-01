@@ -1,34 +1,40 @@
 --extra-index-url https://download.pytorch.org/whl/cu121
-torch
-torchvision
-torchaudio
 
-# Core Data & Utilities
-pandas>=2.0
-numpy>=1.23
-datasets>=2.12
+# PyTorch / CUDA 12.1
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
 
-# Excel Support
-openpyxl>=3.0.10
+# Core data and utilities
+pandas>=2.2.0
+numpy>=1.26.0
+datasets>=2.18.0
+scipy>=1.12.0
+tabulate>=0.9.0
+tqdm>=4.66.0
+ipywidgets>=8.1.0
 
-# NLP & Machine Learning (Classical)
-scikit-learn>=1.2
+# Excel support
+openpyxl>=3.1.0
+
+# Classical NLP and machine learning
+scikit-learn>=1.4.0
+nltk>=3.8.1
+spacy>=3.7.0
+gensim>=4.3.2
+beautifulsoup4>=4.12.0
 regex>=2023.0.0
 
 # Visualization
-matplotlib>=3.7
-seaborn>=0.12
+matplotlib>=3.8.0
+seaborn>=0.13.0
 
-# Required for DeBERTa + HuggingFace tokenizers
+# HuggingFace / DeBERTa dependencies
 protobuf==3.20.*
 sentencepiece>=0.1.99
 tokenizers<0.21
 
-# Transformers + Training
-transformers>=4.30
-accelerate>=0.20
-optuna>=3.0
-
-# Progress bar for model training
-tqdm>=4.60
-ipywidgets>=8.0
+# Transformers and training
+transformers>=4.38.0
+accelerate>=0.27.0
+optuna>=3.5.0
